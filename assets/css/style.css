@@ -18,10 +18,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
 /* Header */
 header {
     background-color: rgb(0, 81, 255);
+}
+
+h1 {
+    font-family: 'Laila', sans-serif;
 }
 
 /* Main content */
