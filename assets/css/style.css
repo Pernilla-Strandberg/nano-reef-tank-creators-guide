@@ -16,6 +16,7 @@ body {
     /* Generic project styles */
     color: #2e2e2e;
     font-family: 'Poppins', sans-serif;
+    background-color: lightblue;
 }
 
 /* Header */
@@ -29,18 +30,44 @@ header {
     box-shadow: 0 1px 4px #2e2e2e;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: 'Laila', sans-serif;
+
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #2e2e2e;
 }
 
 /* Main content */
 main {
-    background-color: rgb(0, 174, 255);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0 1rem;
+    width: 100%;
     /* Push footer down */
     flex: 1 0 auto;
+
+    
 }
 
 /* Footer */
 footer {
-    background-color: rgb(0, 255, 255);
+    background-color: rgb(0, 25, 67);
+    color: rgb(255, 255, 255);
 }
