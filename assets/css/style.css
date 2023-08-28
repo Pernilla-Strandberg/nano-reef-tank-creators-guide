@@ -28,6 +28,10 @@ header {
     z-index: 99;
     /* horizontal offset, vertical offset (positive = below), blur, color */
     box-shadow: 0 1px 4px #2e2e2e;
+    /* style for placing the hamburger icon to the right and aligned*/
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -64,6 +68,20 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 1px 4px #2e2e2e;
     display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main content */
@@ -73,6 +91,8 @@ main {
     width: 100%;
     /* Push footer down */
     flex: 1 0 auto;
+    /* Let main content visible */
+    margin-top: 47px;
 
     
 }
