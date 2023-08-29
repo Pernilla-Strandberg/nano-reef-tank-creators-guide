@@ -59,6 +59,19 @@ p {
     color: rgba(255, 255, 255, 0.8);
 }
 
+/* Animation menu items */
+.fade-effect-1 {
+    animation: fadeAndMove 1s;
+}
+
+.fade-effect-2 {
+    animation: fadeAndMove 2s;
+}
+
+.fade-effect-3 {
+    animation: fadeAndMove 3s;
+}
+
 #menu > li {
     margin-bottom: 1em;
 }
@@ -189,7 +202,7 @@ footer {
     nav {
         position: absolute;
         top: 1rem;
-        right: 2.5rem;
+        right: 3rem;
         width: fit-content;
         padding-right: 1rem;
     }
@@ -202,6 +215,19 @@ footer {
 
     #menu > li {
         padding-left: 2rem;
+    }
+
+    /* Reverse fading animation */
+    .fade-effect-1 {
+        animation: fadeAndMoveReverse 3s;
+    }
+
+    .fade-effect-2 {
+        animation: fadeAndMoveReverse 2s;
+    }
+
+    .fade-effect-3 {
+        animation: fadeAndMoveReverse 1s;
     }
 
     /* Main content */
@@ -235,6 +261,21 @@ footer {
 /* Keyframes for transition effect */
 @keyframes fadeIn {
     0% { opacity: 0; transform: translateX(-50px); }
+    25% { transform: translateX(0px); }
+    50% { opacity: 0.8;}
+    100% { opacity: 1; }
+  }
+
+/* Keyframes for transition effect on nav item */
+@keyframes fadeAndMove {
+    0% { opacity: 0; transform: translateX(-50px); }
+    25% { transform: translateX(0px); }
+    50% { opacity: 0.8;}
+    100% { opacity: 1; }
+  }
+
+  @keyframes fadeAndMoveReverse {
+    0% { opacity: 0; transform: translateX(50px); }
     25% { transform: translateX(0px); }
     50% { opacity: 0.8;}
     100% { opacity: 1; }
