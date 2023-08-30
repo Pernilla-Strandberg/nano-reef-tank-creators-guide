@@ -181,9 +181,9 @@ main {
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
-  
-  .btn span:after {
+}
+
+.btn span:after {
     font: var(--fa-font-solid);
     content: "\f103";
     position: absolute;
@@ -192,17 +192,17 @@ main {
     right: -20px;
     transition: 0.5s;
     align-items: center;
-  }
-  
-  .btn:hover span {
+}
+
+.btn:hover span {
     padding-right: 25px;
-  }
-  
-  .btn:hover span:after {
+}
+
+.btn:hover span:after {
     opacity: 1;
     right: 0;
-  }
-  
+}
+
 
 /* Guide Sections */
 
@@ -281,6 +281,20 @@ footer {
     z-index: 1;
 }
 
+
+
+/* Responsive layout small screens */
+@media screen and (min-width: 250px) {
+
+    /* Main content */
+    #plan {
+        margin-top: -3rem;
+        padding: 2rem;
+    }
+}
+
+
+
 /* Responsive layout tablets and larger */
 @media screen and (min-width: 768px) {
 
@@ -338,7 +352,7 @@ footer {
 
     #plan {
         margin-top: -3rem;
-        padding: 2rem;
+        padding: 3rem;
     }
 }
 
@@ -350,7 +364,7 @@ footer {
 
     #plan {
         margin-top: -3rem;
-        padding: 3rem;
+        padding: 4rem;
     }
 }
 
