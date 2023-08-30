@@ -223,6 +223,19 @@ main {
 #plan {
     margin-top: -3rem;
     padding: 1rem;
+
+}
+
+#plan > h2 {
+    color:#760285;
+    
+}
+
+
+.fa-pen-ruler {
+    color:#760285;
+    padding-right: 1rem;
+
 }
 
 #budget {}
