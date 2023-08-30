@@ -199,25 +199,25 @@ main {
 /* Footer */
 .footer-wrapper {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    align-items: baseline;
     max-width: 1020px;
-    background-color: chartreuse;
+    margin: 0 auto;
 }
 
 /* Contact form */
 #footer-contact {
     text-align: center;
     padding: 20px 0;
-    justify-content: space-evenly;
-    background-color: #d5e400;
+    background-color: rgba(0, 0, 0, 0.3);
+    max-width: 350px;
 }
 
 #footer-social-networks {
-    text-align: center;
-    padding: 20px 0;
     justify-content: space-evenly;
-    background-color: #d5e400;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 20%;
 }
 
 /* Social network icons */
@@ -225,11 +225,10 @@ main {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: space-evenly;
     list-style-type: none;
     background-color: mediumvioletred;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 
 #social-networks i {
@@ -244,9 +243,6 @@ footer {
     color: rgb(255, 255, 255);
     width:100%;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 /* Responsive layout tablets and larger */
