@@ -74,11 +74,21 @@
         <div class="footer-wrapper">
             <!-- Contact form -->
             <div id="footer-contact">
-
+                <form id="contact-form" method="POST" action="https://#">
+                    <h2>Love or hate this guide? Reach out!</h2>
+                    <label for="fname">Name</label>
+                    <input type="text" name="fname" id="f_name" class="input-style" required>
+                    <br>
+                    <label for="email_address">Email</label>
+                    <input type="email" name="email_address" id="email_address" class="input-style" required>
+                    <br>
+                    <button type="submit" class="contact-btn">Send</button>
+                </form>
             </div>
+
             <!-- Social networks icons -->
-            <div id="social-networks">
-                <ul>
+            <div id="footer-social-networks">
+                <ul id="social-networks">
                     <li>
                         <a href="https://www.facebook.com/" target="_blank" rel="noopener"
                             aria-label="Visit our Facebook page (opens in a new tab)">

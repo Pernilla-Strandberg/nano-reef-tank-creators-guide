@@ -198,21 +198,38 @@ main {
 
 /* Footer */
 .footer-wrapper {
-    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1020px;
+    background-color: chartreuse;
 }
 
 /* Contact form */
 #footer-contact {
-
+    text-align: center;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    background-color: #d5e400;
 }
 
+#footer-social-networks {
+    text-align: center;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    background-color: #d5e400;
+}
 
+/* Social network icons */
 #social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: mediumvioletred;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 #social-networks i {
@@ -221,10 +238,15 @@ main {
     padding: 5%;
 }
 
-
+/* Footer styling */
 footer {
     background-color: #5500e4;
     color: rgb(255, 255, 255);
+    width:100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 /* Responsive layout tablets and larger */
@@ -280,12 +302,6 @@ footer {
         padding-top: 20rem;
         position: absolute;
         left: -10rem;
-    }
-
-    /* Responsive button */
-
-    .btn {
-        border: 2px solid black;
     }
 }
 
