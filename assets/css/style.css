@@ -38,7 +38,8 @@ header a:hover {
     border-bottom: 1px solid rgba(255, 255, 255, 0.8);
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Laila', sans-serif;
 }
 
@@ -72,7 +73,7 @@ p {
     animation: fadeAndMove 3s;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -80,7 +81,7 @@ p {
 nav {
     position: absolute;
     width: 100%;
-    height: 45px; 
+    height: 45px;
     padding: 0 1rem;
     right: 0;
     top: 4rem;
@@ -98,7 +99,7 @@ nav {
 }
 
 .nav-toggle-label {
-    position:absolute;
+    position: absolute;
     right: 0;
     padding: 0.5rem 1rem;
     font-size: 2rem;
@@ -117,7 +118,7 @@ main {
 #hero {
     /* Background image from Pexels by Ivan Babydov */
     background: url("/assets/images/pexels-ivan-babydov-7787865.jpg") no-repeat top right fixed;
-    background-size:cover;
+    background-size: cover;
     position: relative;
     width: 100%;
     height: 600px;
@@ -137,7 +138,7 @@ main {
     animation: fadeIn 4s ease-in-out;
 }
 
-#hero-paragraph {
+#hero-content {
     font-size: 120%;
     position: fixed;
     left: 0;
@@ -150,7 +151,34 @@ main {
     animation: fadeIn 6s ease-in-out;
 }
 
+/* Button */
+.btn {
+    border: 1px solid #1e1e1ea6;
+    border-radius: 10px;
+    box-shadow: 4px 7px 10px 1px #1e1e1ea6;
+    color: rgba(57, 2, 59, 1);
+    background-color: #ebdfffcf;
+    padding: 18px 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    width:100%;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1rem;
+}
+
 /* Guide Sections */
+
+/* A wrapper div to prevent guide sections to appear underneath hero section */
+.section-wrapper {
+    position: relative;
+    z-index: 9;
+}
 
 .section-container {
     margin: 0 auto;
@@ -160,21 +188,13 @@ main {
     background-color: #FFF;
 }
 
-#plan {
-    
-}
+#plan {}
 
-#budget {
+#budget {}
 
-}
+#buy {}
 
-#buy {
-
-}
-
-#setup {
-
-}
+#setup {}
 
 /* Footer */
 #social-networks {
@@ -198,6 +218,7 @@ footer {
 
 /* Responsive layout tablets and larger */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         position: absolute;
@@ -213,7 +234,7 @@ footer {
         font-size: 130%;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 2rem;
     }
 
@@ -242,41 +263,83 @@ footer {
         left: -10rem;
     }
 
-    #hero-paragraph {
+    #hero-content {
         font-size: 140%;
         max-width: 420px;
         padding-top: 20rem;
         position: absolute;
         left: -10rem;
     }
+
+    /* Responsive button */
+
+    .btn {
+        border: 2px solid black;
+    }
 }
 
 /* Responsive layout large devices */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid rgba(255, 255, 255, 0.8);
     }
 }
 
 /* Keyframes for transition effect */
 @keyframes fadeIn {
-    0% { opacity: 0; transform: translateX(-50px); }
-    25% { transform: translateX(0px); }
-    50% { opacity: 0.8;}
-    100% { opacity: 1; }
-  }
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    25% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 /* Keyframes for transition effect on nav item */
 @keyframes fadeAndMove {
-    0% { opacity: 0; transform: translateX(-50px); }
-    25% { transform: translateX(0px); }
-    50% { opacity: 0.8;}
-    100% { opacity: 1; }
-  }
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
 
-  @keyframes fadeAndMoveReverse {
-    0% { opacity: 0; transform: translateX(50px); }
-    25% { transform: translateX(0px); }
-    50% { opacity: 0.8;}
-    100% { opacity: 1; }
-  }
+    25% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeAndMoveReverse {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    25% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
