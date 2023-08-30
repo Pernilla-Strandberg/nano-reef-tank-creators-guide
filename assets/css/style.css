@@ -25,7 +25,7 @@ header {
     position: fixed;
     width: 100%;
     height: 50px;
-    z-index: 99;
+    z-index: 3;
     color: rgba(255, 255, 255, 0.8);
 }
 
@@ -170,14 +170,45 @@ main {
     justify-content: center;
     align-items: center;
     margin-top:1rem;
+    /* Add transition effect to show arrow icon on button */
+    transition: all 0.5s;
 }
+
+/* Button animated hoover effect, code partly from W3Schools: https://www.w3schools.com/howto/howto_css_animate_buttons.asp */
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    font: var(--fa-font-solid);
+    content: "\f103";
+    position: absolute;
+    opacity: 0;
+    top: 0.3rem;
+    right: -20px;
+    transition: 0.5s;
+    align-items: center;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
 
 /* Guide Sections */
 
 /* A wrapper div to prevent guide sections to appear underneath hero section */
 .section-wrapper {
     position: relative;
-    z-index: 9;
+    z-index: 2;
 }
 
 .section-container {
@@ -243,6 +274,7 @@ footer {
     color: rgb(255, 255, 255);
     width:100%;
     margin: 0 auto;
+    z-index: 1;
 }
 
 /* Responsive layout tablets and larger */
