@@ -206,6 +206,17 @@ main {
 
 /* Guide Sections */
 
+
+/* 50/50 design on larger screens */
+
+.half-page-left {
+
+}
+
+.half-page-right {
+
+}
+
 /* A wrapper div to prevent guide sections to appear underneath hero section */
 .section-wrapper {
     position: relative;
@@ -228,6 +239,22 @@ main {
 
 #plan > h2 {
     color:#760285;
+    
+}
+
+#plan .half-page-right ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#plan .half-page-right ul > li {
+    display: block;
+    min-height: 4rem;
+    width: 50%;
+    background-color: brown;
+    border-radius: 0.5rem;
+    color: #FFF;
+    padding: 1rem;
     
 }
 
