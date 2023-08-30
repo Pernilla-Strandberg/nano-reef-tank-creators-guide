@@ -158,6 +158,7 @@ main {
     box-shadow: 4px 7px 10px 1px #1e1e1ea6;
     color: rgba(57, 2, 59, 1);
     background-color: #ebdfffcf;
+    text-decoration: none;
     padding: 18px 0;
     font-size: 1.1rem;
     font-weight: 600;
@@ -219,7 +220,10 @@ main {
     background-color: #FFF;
 }
 
-#plan {}
+#plan {
+    margin-top: -3rem;
+    padding: 1rem;
+}
 
 #budget {}
 
@@ -320,7 +324,7 @@ footer {
     #hero-title {
         font-size: 180%;
         max-width: 420px;
-        position: absolute;
+        position: fixed;
         left: -10rem;
     }
 
@@ -328,8 +332,13 @@ footer {
         font-size: 140%;
         max-width: 420px;
         padding-top: 20rem;
-        position: absolute;
+        position: fixed;
         left: -10rem;
+    }
+
+    #plan {
+        margin-top: -3rem;
+        padding: 2rem;
     }
 }
 
@@ -337,6 +346,11 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    }
+
+    #plan {
+        margin-top: -3rem;
+        padding: 3rem;
     }
 }
 
