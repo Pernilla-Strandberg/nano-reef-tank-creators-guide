@@ -237,16 +237,13 @@ main {
 }
 
 #plan {
-
     padding: 1rem;
     box-shadow: 0 1em 1em 1px #616161;
     margin-bottom: 3rem;
-
 }
 
 #plan .half-page-left>h2 {
     color: #760285;
-
 }
 
 /* 50/50 design on larger screens */
@@ -254,12 +251,10 @@ main {
 .half-page-left {
     flex: 100%;
     padding-bottom: 1rem;
-
 }
 
 .half-page-right {
     flex: 100%;
-
 }
 
 #plan .half-page-right ul {
@@ -280,14 +275,12 @@ main {
     padding: 1rem;
     flex: 100%;
     text-align: center;
-
 }
 
 
 .fa-pen-ruler {
     color: #760285;
     padding-right: 1rem;
-
 }
 
 #budget {
@@ -392,16 +385,13 @@ p.note {
 /* Styling of Setup section */
 
 #setup {
-
     padding: 1rem;
     box-shadow: 0 1em 1em 1px #616161;
     margin-bottom: 3rem;
-
 }
 
 #setup .half-page-left>h2 {
     color: #760285;
-
 }
 
 #setup .half-page-right ul {
@@ -422,13 +412,11 @@ p.note {
     padding: 1rem;
     flex: 100%;
     text-align: center;
-
 }
 
 .fa-solid-rocket {
     color: #760285;
     padding-right: 1rem;
-
 }
 
 /* Footer */
@@ -442,16 +430,14 @@ p.note {
 
 /* Contact form */
 #footer-contact {
-    width: 50%;
-    text-align: center;
+    width: 30%;
+    text-align: left;
     padding: 20px 0;
-    background-color: rgba(0, 0, 0, 0.3);
 }
 
 #footer-social-networks {
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.3);
     width: 50%;
     display: flex;
     flex-direction: row;
@@ -478,11 +464,12 @@ p.note {
 
 /* Footer styling */
 footer {
-    background-color: #5500e4;
+    background-color: #140733;
     color: rgb(255, 255, 255);
     width: 100%;
     margin: 0 auto;
     z-index: 1;
+    padding: 2em 0;
 }
 
 
