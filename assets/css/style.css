@@ -232,14 +232,14 @@ main {
 }
 
 #plan {
-    
+
     padding: 1rem;
     box-shadow: 0 1em 1em 1px #616161;
     margin-bottom: 3rem;
 
 }
 
-#plan>h2 {
+#plan .half-page-left>h2 {
     color: #760285;
 
 }
@@ -248,7 +248,7 @@ main {
 
 .half-page-left {
     flex: 100%;
-    padding-bottom:1rem;
+    padding-bottom: 1rem;
 
 }
 
@@ -269,7 +269,7 @@ main {
     display: block;
     min-height: 4rem;
     width: 100%;
-    background-color: brown;
+    background-color: #760285;
     border-radius: 0.5rem;
     color: #FFF;
     padding: 1rem;
@@ -285,9 +285,83 @@ main {
 
 }
 
-#budget {}
+#budget {
+    background-color: #ddd;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: flex-start;
+}
 
-#buy {}
+.fa-sack-dollar {
+    color: #3d1d32;
+    padding-right: 1rem;
+}
+
+#budget img {
+    width: 100%;
+    padding-top: 1.5rem;
+}
+
+#budget p {
+    color: #3d1d32;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+#budget h2 {
+    color: #3d1d32;
+}
+
+#budget ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    color: #3d1d32;
+}
+
+#budget ul li span {
+    font-weight: 700;
+}
+
+#buy {
+    background-color: #760285;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    box-shadow: 0 1em 1em 1px #616161;
+}
+
+.fa-shopping-basket {
+    color: #3d1d32;
+    padding-right: 1rem;
+}
+
+#buy img {
+    width: 100%;
+    padding-top: 1.5rem;
+}
+
+#buy p {
+    color: #ffd8f1;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+#buy h2 {
+    color: #ffd8f1;
+}
+
+#buy ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    color: #ffd8f1;
+}
+
+#buy ul li span {
+    font-weight: 700;
+}
 
 #setup {}
 
@@ -359,6 +433,7 @@ footer {
     #plan .half-page-right ul>li {
         flex: 40%;
     }
+    
 }
 
 
@@ -419,6 +494,31 @@ footer {
 
     #plan {
         padding: 3rem;
+    }
+
+    #budget .half-page-left {
+        flex: 40%;
+    }
+
+    #budget .half-page-right {
+        flex: 40%;
+    }
+
+    #budget img {
+        clip-path: circle(45%);
+    }
+
+    #buy .half-page-left {
+        flex: 40%;
+    }
+
+    #buy .half-page-right {
+        flex: 40%;
+    }
+    #buy img {
+    width: 95%;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    padding-top: 0;
     }
 }
 
