@@ -8,23 +8,26 @@ Over time, if more people start to get involved in saltwater aquarism, it could 
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Features on this page entice the user to start their own nano tank project. Through an airy, clear and responsive layout, the user can easily get all the information to them and see the value of it being so simple.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on the hero section, full responsive navigation bar includes links to the Home, Guide, and contact section.
+  - Animation on both vertical and horizontal view due to different screen sizes for a great user experience.
+  - This section will allow the user to easily navigate to the start of the guide or directly to contact section.
+  - As it is a one page layout, with just 4 sections in main, no need for navbar to always appear. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/pernilla-strandberg/media/nano_guide_nav.png)
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes a background photo, title and paragraph, and a button that leads to first guide section. 
+  - The button make the user active, the animation effects creates a nice user experience.
+  - Position is fixed to create a feeling of separate parts.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/pernilla-strandberg/media/nano_guide_landing.png)
 
 - __Club Ethos Section__
 
