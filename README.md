@@ -4,7 +4,7 @@ This guide is for people who want to start a nano reef tank but don't really dar
 
 Over time, if more people start to get involved in saltwater aquarism, it could help to save the endangered reefs from extinction by taking care of the creatures that live there right now.
 
-![Mockup](https://github.com/pernilla-strandberg/assets/images/nano_guide_mockup.png)
+![Mockup](/assets/images/nano_guide_mockup.png)
 
 ## Features 
 
