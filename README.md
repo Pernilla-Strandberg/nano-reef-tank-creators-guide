@@ -19,8 +19,9 @@ Features on this page entice the user to start their own nano tank project. Thro
   - This section will allow the user to easily navigate to the start of the guide or directly to contact section.
   - As it is a one page layout, with just 4 sections in main, no need for navbar to always appear. 
 
-![Nav Bar_small_screens](https://github.com/pernilla-strandberg/assets/images/nano_guide_nav_small_screens.png)
-![Nav Bar_big_screens](https://github.com/pernilla-strandberg/assets/images/nano_guide_nav_big_screens.png)
+
+![Nav_Bar_small_screens]( /assets/images/nano_guide_nav_small_screens.png)
+![Nav_Bar_big_screens]( /assets/images/nano_guide_nav_b_screens.png)
 
 - __The landing page__
 
@@ -28,22 +29,22 @@ Features on this page entice the user to start their own nano tank project. Thro
   - The button make the user active, the animation effects creates a nice user experience.
   - Position is fixed to create a feeling of separate parts.
 
-![Landing Page](https://github.com/pernilla-strandberg/assets/images/nano_guide_landing.png)
+![Landing Page](/assets/images/nano_guide_landing.png)
 
 - __Guide Sections__
 
   - Different layout on all guide sections to make the page more interesting. 
 
-![Guide_section 1](https://github.com/pernilla/assets/images/nano_guide_sections.png)
-![Guide_section 2](https://github.com/pernilla/assets/images/nano_guide_sections.png)
-![Guide_section 3](https://github.com/pernilla/assets/images/nano_guide_sections.png)
+![Guide_section 1](/assets/images/nano_guide_sections.png)
+![Guide_section 2](/assets/images/nano_guide_sections2.png)
+![Guide_section 3](/assets/images/nano_guide_sections3.png)
 
 - __The Footer__ 
 
   - The footer is under development due to lack of time but it shows an idea of how it will look like with a contact form and icon links to social assets/images sites. Links will open in a new window. 
   - The footer contact and social assets/images sites give the user several ways to keep in touch or find more information.
 
-![Footer](https://github.com/pernilla-strandberg/assets/images/nano_footer_under_development.png)
+![Footer]( /assets/images/nano_footer_under_development.png)
 
 
 ### Features Left to Implement
