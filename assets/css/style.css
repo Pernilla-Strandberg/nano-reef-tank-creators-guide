@@ -117,7 +117,7 @@ main {
 /* Hero */
 #hero {
     /* Background image from Pexels by Ivan Babydov */
-    background: url("/assets/images/pexels-ivan-babydov-7787865.jpg") no-repeat top right fixed;
+    background: url('assets/images/pexels-ivan-babydov-7787865.jpg') no-repeat top right fixed;
     background-size: cover;
     position: relative;
     width: 100%;
