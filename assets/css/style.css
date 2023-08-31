@@ -107,7 +107,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: rgba(189, 189, 189, 1);
+    background-color: #ddd;
     /* Push footer down */
     flex: 1 0 auto;
     /* Main content visible */
@@ -121,7 +121,7 @@ main {
     background-size: cover;
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 650px;
 }
 
 /* Hero Title */
@@ -165,12 +165,12 @@ main {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     cursor: pointer;
-    width:100%;
+    width: 100%;
     letter-spacing: 1px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:1rem;
+    margin-top: 1rem;
     /* Add transition effect to show arrow icon on button */
     transition: all 0.5s;
 }
@@ -206,19 +206,9 @@ main {
 
 /* Guide Sections */
 
-
-/* 50/50 design on larger screens */
-
-.half-page-left {
-
-}
-
-.half-page-right {
-
-}
-
 /* A wrapper div to prevent guide sections to appear underneath hero section */
 .section-wrapper {
+    background-color: #ddd;
     position: relative;
     z-index: 2;
 }
@@ -226,41 +216,71 @@ main {
 .section-container {
     margin: 0 auto;
     max-width: 1020px;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 1rem;
     background-color: #FFF;
 }
 
+/* For putting the section down */
+.section-top {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    background-color: #ddd;
+    z-index: 3;
+}
+
 #plan {
-    margin-top: -3rem;
+    
     padding: 1rem;
+    box-shadow: 0 1em 1em 1px #616161;
+    margin-bottom: 3rem;
 
 }
 
-#plan > h2 {
-    color:#760285;
-    
+#plan>h2 {
+    color: #760285;
+
+}
+
+/* 50/50 design on larger screens */
+
+.half-page-left {
+    flex: 100%;
+    padding-bottom:1rem;
+
+}
+
+.half-page-right {
+    flex: 100%;
+
 }
 
 #plan .half-page-right ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 0.5rem;
 }
 
-#plan .half-page-right ul > li {
+#plan .half-page-right ul>li {
     display: block;
     min-height: 4rem;
-    width: 50%;
+    width: 100%;
     background-color: brown;
     border-radius: 0.5rem;
     color: #FFF;
     padding: 1rem;
-    
+    flex: 100%;
+    text-align: center;
+
 }
 
 
 .fa-pen-ruler {
-    color:#760285;
+    color: #760285;
     padding-right: 1rem;
 
 }
@@ -316,7 +336,7 @@ main {
 footer {
     background-color: #5500e4;
     color: rgb(255, 255, 255);
-    width:100%;
+    width: 100%;
     margin: 0 auto;
     z-index: 1;
 }
@@ -328,11 +348,18 @@ footer {
 
     /* Main content */
     #plan {
-        margin-top: -3rem;
         padding: 2rem;
     }
 }
 
+/* Responsive layout medium screens */
+@media screen and (min-width: 450px) {
+
+    /* Main content */
+    #plan .half-page-right ul>li {
+        flex: 40%;
+    }
+}
 
 
 /* Responsive layout tablets and larger */
@@ -391,7 +418,6 @@ footer {
     }
 
     #plan {
-        margin-top: -3rem;
         padding: 3rem;
     }
 }
@@ -403,7 +429,6 @@ footer {
     }
 
     #plan {
-        margin-top: -3rem;
         padding: 4rem;
     }
 }
