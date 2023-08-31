@@ -31,10 +31,9 @@ Features on this page entice the user to start their own nano tank project. Thro
 
 - __Guide Sections__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - Different layout on all guide sections to make the page more interesting. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Guide_sections](https://github.com/pernilla/media/nano_guide_sections.png)
 
 - __The Footer__ 
 
@@ -50,7 +49,7 @@ Features on this page entice the user to start their own nano tank project. Thro
 
 ## Testing 
 
-how your project looks and works on different browsers and screen sizes.
+Webpage is showing up nicely when testing it on different sizes in chromes developing tool.
 
 ### Validator Testing 
 
