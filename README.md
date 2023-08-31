@@ -46,6 +46,7 @@ Features on this page entice the user to start their own nano tank project. Thro
 ### Features Left to Implement
 
 - Footer layout that is not finished but is functioning
+- Better resolution on hero bg image
 
 ## Testing 
 
@@ -54,42 +55,32 @@ Webpage is showing up nicely when testing it on different sizes in chromes devel
 ### Validator Testing 
 
 - HTML
-  - Just an extra </p> were found and corrected when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - Just a form duplicate error and an extra </p> were found and corrected when passing through the official W3C generator
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found through the official Jigsaw generator
 
 ### Unfixed Bugs
 
-Not found any bugs. 
+No bugs found. 
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - [Nano reef tank creator's guide](https://pernilla-strandberg.github.io/nano-reef-tank-creators-guide/) 
 
 
-## Credits 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+## Credits  
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The text for the Home page was mostly written by myself and from my experiences
+- Instructions on animating icons on button was taken from W3C shools  [Specific YouTube Tutorial](https://www.youtube.com/)
+- The icons on the page is from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+- The photos used on the page are from Pexel and the authors is named in code comments
