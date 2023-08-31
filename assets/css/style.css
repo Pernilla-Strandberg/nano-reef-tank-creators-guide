@@ -23,9 +23,9 @@ header {
     background-color: rgba(46, 46, 46, 0);
     padding: 0 1rem;
     position: fixed;
-    width: 100%;
+    width: 98vw;
     height: 50px;
-    z-index: 3;
+    z-index: 2;
     color: rgba(255, 255, 255, 0.8);
 }
 
@@ -361,6 +361,20 @@ main {
 
 #buy ul li span {
     font-weight: 700;
+}
+
+#buy input[type="checkbox"] {
+    outline: 3px outset #ffd8f1;
+    color:#ffd8f1;
+}
+
+#buy input[type=checkbox]{
+    accent-color:  #760285;  
+    }
+
+#buy label {
+    color:#ffd8f1;
+    padding-left: 1rem;
 }
 
 #setup {}
