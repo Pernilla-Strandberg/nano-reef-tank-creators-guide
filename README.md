@@ -4,7 +4,7 @@ This guide is for people who want to start a nano reef tank but don't really dar
 
 Over time, if more people start to get involved in saltwater aquarism, it could help to save the endangered reefs from extinction by taking care of the creatures that live there right now.
 
-![Mockup](https://github.com/pernilla-strandberg/media/nano_guide_mockup.png)
+![Mockup](https://github.com/pernilla-strandberg/assets/images/nano_guide_mockup.png)
 
 ## Features 
 
@@ -19,8 +19,8 @@ Features on this page entice the user to start their own nano tank project. Thro
   - This section will allow the user to easily navigate to the start of the guide or directly to contact section.
   - As it is a one page layout, with just 4 sections in main, no need for navbar to always appear. 
 
-![Nav Bar_small_screens](https://github.com/pernilla-strandberg/media/nano_guide_nav_small_screens.png)
-![Nav Bar_big_screens](https://github.com/pernilla-strandberg/media/nano_guide_nav_big_screens.png)
+![Nav Bar_small_screens](https://github.com/pernilla-strandberg/assets/images/nano_guide_nav_small_screens.png)
+![Nav Bar_big_screens](https://github.com/pernilla-strandberg/assets/images/nano_guide_nav_big_screens.png)
 
 - __The landing page__
 
@@ -28,22 +28,22 @@ Features on this page entice the user to start their own nano tank project. Thro
   - The button make the user active, the animation effects creates a nice user experience.
   - Position is fixed to create a feeling of separate parts.
 
-![Landing Page](https://github.com/pernilla-strandberg/media/nano_guide_landing.png)
+![Landing Page](https://github.com/pernilla-strandberg/assets/images/nano_guide_landing.png)
 
 - __Guide Sections__
 
   - Different layout on all guide sections to make the page more interesting. 
 
-![Guide_section 1](https://github.com/pernilla/media/nano_guide_sections.png)
-![Guide_section 2](https://github.com/pernilla/media/nano_guide_sections.png)
-![Guide_section 3](https://github.com/pernilla/media/nano_guide_sections.png)
+![Guide_section 1](https://github.com/pernilla/assets/images/nano_guide_sections.png)
+![Guide_section 2](https://github.com/pernilla/assets/images/nano_guide_sections.png)
+![Guide_section 3](https://github.com/pernilla/assets/images/nano_guide_sections.png)
 
 - __The Footer__ 
 
-  - The footer is under development due to lack of time but it shows an idea of how it will look like with a contact form and icon links to social media sites. Links will open in a new window. 
-  - The footer contact and social media sites give the user several ways to keep in touch or find more information.
+  - The footer is under development due to lack of time but it shows an idea of how it will look like with a contact form and icon links to social assets/images sites. Links will open in a new window. 
+  - The footer contact and social assets/images sites give the user several ways to keep in touch or find more information.
 
-![Footer](https://github.com/pernilla-strandberg/media/nano_footer_under_development.png)
+![Footer](https://github.com/pernilla-strandberg/assets/images/nano_footer_under_development.png)
 
 
 ### Features Left to Implement
@@ -83,6 +83,6 @@ The live link can be found here - [Nano reef tank creator's guide](https://perni
 - The text for the Home page was mostly written by myself and from my experiences
 - The icons on the page is from [Font Awesome](https://fontawesome.com/)
 
-### Media
+### assets/images
 
 - The photos used on the page are from Pexel and the authors is named in code comments
